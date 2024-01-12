@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB7276A2B51FA0900FD84BA /* Clear_Sky_FinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB727692B51FA0900FD84BA /* Clear_Sky_FinderApp.swift */; };
+		4FB7276C2B51FA0900FD84BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7276B2B51FA0900FD84BA /* ContentView.swift */; };
+		4FB7276E2B51FA0A00FD84BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB7276D2B51FA0A00FD84BA /* Assets.xcassets */; };
+		4FB727712B51FA0A00FD84BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB727702B51FA0A00FD84BA /* Preview Assets.xcassets */; };
+		4FB727732B51FA0A00FD84BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB727722B51FA0A00FD84BA /* Persistence.swift */; };
+		4FB727762B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FB727742B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodeld */; };
+		4FB727802B51FA0A00FD84BA /* Clear_Sky_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7277F2B51FA0A00FD84BA /* Clear_Sky_FinderTests.swift */; };
+		4FB7278A2B51FA0A00FD84BA /* Clear_Sky_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB727892B51FA0A00FD84BA /* Clear_Sky_FinderUITests.swift */; };
+		4FB7278C2B51FA0A00FD84BA /* Clear_Sky_FinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7278B2B51FA0A00FD84BA /* Clear_Sky_FinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FB7277C2B51FA0A00FD84BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB7275E2B51FA0900FD84BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB727652B51FA0900FD84BA;
+			remoteInfo = "Clear Sky Finder";
+		};
+		4FB727862B51FA0A00FD84BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB7275E2B51FA0900FD84BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB727652B51FA0900FD84BA;
+			remoteInfo = "Clear Sky Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FB727662B51FA0900FD84BA /* Clear Sky Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Sky Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB727692B51FA0900FD84BA /* Clear_Sky_FinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Sky_FinderApp.swift; sourceTree = "<group>"; };
+		4FB7276B2B51FA0900FD84BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FB7276D2B51FA0A00FD84BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FB727702B51FA0A00FD84BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FB727722B51FA0A00FD84BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4FB727752B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clear_Sky_Finder.xcdatamodel; sourceTree = "<group>"; };
+		4FB7277B2B51FA0A00FD84BA /* Clear Sky FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear Sky FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB7277F2B51FA0A00FD84BA /* Clear_Sky_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Sky_FinderTests.swift; sourceTree = "<group>"; };
+		4FB727852B51FA0A00FD84BA /* Clear Sky FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear Sky FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB727892B51FA0A00FD84BA /* Clear_Sky_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Sky_FinderUITests.swift; sourceTree = "<group>"; };
+		4FB7278B2B51FA0A00FD84BA /* Clear_Sky_FinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Sky_FinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FB727632B51FA0900FD84BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB727782B51FA0A00FD84BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB727822B51FA0A00FD84BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FB7275D2B51FA0900FD84BA = {
+			isa = PBXGroup;
+			children = (
+				4FB727682B51FA0900FD84BA /* Clear Sky Finder */,
+				4FB7277E2B51FA0A00FD84BA /* Clear Sky FinderTests */,
+				4FB727882B51FA0A00FD84BA /* Clear Sky FinderUITests */,
+				4FB727672B51FA0900FD84BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FB727672B51FA0900FD84BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB727662B51FA0900FD84BA /* Clear Sky Finder.app */,
+				4FB7277B2B51FA0A00FD84BA /* Clear Sky FinderTests.xctest */,
+				4FB727852B51FA0A00FD84BA /* Clear Sky FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FB727682B51FA0900FD84BA /* Clear Sky Finder */ = {
+			isa = PBXGroup;
+			children = (
+				4FB727692B51FA0900FD84BA /* Clear_Sky_FinderApp.swift */,
+				4FB7276B2B51FA0900FD84BA /* ContentView.swift */,
+				4FB7276D2B51FA0A00FD84BA /* Assets.xcassets */,
+				4FB727722B51FA0A00FD84BA /* Persistence.swift */,
+				4FB727742B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodeld */,
+				4FB7276F2B51FA0A00FD84BA /* Preview Content */,
+			);
+			path = "Clear Sky Finder";
+			sourceTree = "<group>";
+		};
+		4FB7276F2B51FA0A00FD84BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FB727702B51FA0A00FD84BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FB7277E2B51FA0A00FD84BA /* Clear Sky FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FB7277F2B51FA0A00FD84BA /* Clear_Sky_FinderTests.swift */,
+			);
+			path = "Clear Sky FinderTests";
+			sourceTree = "<group>";
+		};
+		4FB727882B51FA0A00FD84BA /* Clear Sky FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FB727892B51FA0A00FD84BA /* Clear_Sky_FinderUITests.swift */,
+				4FB7278B2B51FA0A00FD84BA /* Clear_Sky_FinderUITestsLaunchTests.swift */,
+			);
+			path = "Clear Sky FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FB727652B51FA0900FD84BA /* Clear Sky Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB7278F2B51FA0A00FD84BA /* Build configuration list for PBXNativeTarget "Clear Sky Finder" */;
+			buildPhases = (
+				4FB727622B51FA0900FD84BA /* Sources */,
+				4FB727632B51FA0900FD84BA /* Frameworks */,
+				4FB727642B51FA0900FD84BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clear Sky Finder";
+			productName = "Clear Sky Finder";
+			productReference = 4FB727662B51FA0900FD84BA /* Clear Sky Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FB7277A2B51FA0A00FD84BA /* Clear Sky FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB727922B51FA0A00FD84BA /* Build configuration list for PBXNativeTarget "Clear Sky FinderTests" */;
+			buildPhases = (
+				4FB727772B51FA0A00FD84BA /* Sources */,
+				4FB727782B51FA0A00FD84BA /* Frameworks */,
+				4FB727792B51FA0A00FD84BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB7277D2B51FA0A00FD84BA /* PBXTargetDependency */,
+			);
+			name = "Clear Sky FinderTests";
+			productName = "Clear Sky FinderTests";
+			productReference = 4FB7277B2B51FA0A00FD84BA /* Clear Sky FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FB727842B51FA0A00FD84BA /* Clear Sky FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB727952B51FA0A00FD84BA /* Build configuration list for PBXNativeTarget "Clear Sky FinderUITests" */;
+			buildPhases = (
+				4FB727812B51FA0A00FD84BA /* Sources */,
+				4FB727822B51FA0A00FD84BA /* Frameworks */,
+				4FB727832B51FA0A00FD84BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB727872B51FA0A00FD84BA /* PBXTargetDependency */,
+			);
+			name = "Clear Sky FinderUITests";
+			productName = "Clear Sky FinderUITests";
+			productReference = 4FB727852B51FA0A00FD84BA /* Clear Sky FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FB7275E2B51FA0900FD84BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4FB727652B51FA0900FD84BA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					4FB7277A2B51FA0A00FD84BA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4FB727652B51FA0900FD84BA;
+					};
+					4FB727842B51FA0A00FD84BA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4FB727652B51FA0900FD84BA;
+					};
+				};
+			};
+			buildConfigurationList = 4FB727612B51FA0900FD84BA /* Build configuration list for PBXProject "Clear Sky Finder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FB7275D2B51FA0900FD84BA;
+			productRefGroup = 4FB727672B51FA0900FD84BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FB727652B51FA0900FD84BA /* Clear Sky Finder */,
+				4FB7277A2B51FA0A00FD84BA /* Clear Sky FinderTests */,
+				4FB727842B51FA0A00FD84BA /* Clear Sky FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FB727642B51FA0900FD84BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB727712B51FA0A00FD84BA /* Preview Assets.xcassets in Resources */,
+				4FB7276E2B51FA0A00FD84BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB727792B51FA0A00FD84BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB727832B51FA0A00FD84BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FB727622B51FA0900FD84BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB727732B51FA0A00FD84BA /* Persistence.swift in Sources */,
+				4FB727762B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodeld in Sources */,
+				4FB7276C2B51FA0900FD84BA /* ContentView.swift in Sources */,
+				4FB7276A2B51FA0900FD84BA /* Clear_Sky_FinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB727772B51FA0A00FD84BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB727802B51FA0A00FD84BA /* Clear_Sky_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB727812B51FA0A00FD84BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB7278C2B51FA0A00FD84BA /* Clear_Sky_FinderUITestsLaunchTests.swift in Sources */,
+				4FB7278A2B51FA0A00FD84BA /* Clear_Sky_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FB7277D2B51FA0A00FD84BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB727652B51FA0900FD84BA /* Clear Sky Finder */;
+			targetProxy = 4FB7277C2B51FA0A00FD84BA /* PBXContainerItemProxy */;
+		};
+		4FB727872B51FA0A00FD84BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB727652B51FA0900FD84BA /* Clear Sky Finder */;
+			targetProxy = 4FB727862B51FA0A00FD84BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FB7278D2B51FA0A00FD84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FB7278E2B51FA0A00FD84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FB727902B51FA0A00FD84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clear Sky Finder/Preview Content\"";
+				DEVELOPMENT_TEAM = J6C5746MWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joepaji.Clear-Sky-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FB727912B51FA0A00FD84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clear Sky Finder/Preview Content\"";
+				DEVELOPMENT_TEAM = J6C5746MWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joepaji.Clear-Sky-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FB727932B51FA0A00FD84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6C5746MWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joepaji.Clear-Sky-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clear Sky Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clear Sky Finder";
+			};
+			name = Debug;
+		};
+		4FB727942B51FA0A00FD84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6C5746MWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joepaji.Clear-Sky-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clear Sky Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clear Sky Finder";
+			};
+			name = Release;
+		};
+		4FB727962B51FA0A00FD84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6C5746MWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joepaji.Clear-Sky-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clear Sky Finder";
+			};
+			name = Debug;
+		};
+		4FB727972B51FA0A00FD84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6C5746MWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joepaji.Clear-Sky-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clear Sky Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FB727612B51FA0900FD84BA /* Build configuration list for PBXProject "Clear Sky Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB7278D2B51FA0A00FD84BA /* Debug */,
+				4FB7278E2B51FA0A00FD84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB7278F2B51FA0A00FD84BA /* Build configuration list for PBXNativeTarget "Clear Sky Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB727902B51FA0A00FD84BA /* Debug */,
+				4FB727912B51FA0A00FD84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB727922B51FA0A00FD84BA /* Build configuration list for PBXNativeTarget "Clear Sky FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB727932B51FA0A00FD84BA /* Debug */,
+				4FB727942B51FA0A00FD84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB727952B51FA0A00FD84BA /* Build configuration list for PBXNativeTarget "Clear Sky FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB727962B51FA0A00FD84BA /* Debug */,
+				4FB727972B51FA0A00FD84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FB727742B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FB727752B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodel */,
+			);
+			currentVersion = 4FB727752B51FA0A00FD84BA /* Clear_Sky_Finder.xcdatamodel */;
+			path = Clear_Sky_Finder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FB7275E2B51FA0900FD84BA /* Project object */;
+}
